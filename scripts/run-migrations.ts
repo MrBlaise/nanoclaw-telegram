@@ -3,6 +3,8 @@ import { execFileSync, execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
+// Testing
+
 function compareSemver(a: string, b: string): number {
   const partsA = a.split('.').map(Number);
   const partsB = b.split('.').map(Number);
